@@ -1,14 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Say voice="Polly.Amy" language="en-GB">
-    Hello! You've reached the AI Call Assistant demo line.
-  </Say>
-  <Pause length="1" />
-  <Say voice="Polly.Amy" language="en-GB">
-    Please hold for a moment while we prepare your information.
-  </Say>
-  <Play>https://api.twilio.com/cowbell.mp3</Play>
-  <Say voice="Polly.Amy" language="en-GB">
-    Thank you for calling. Have a great day!
-  </Say>
+  <Say voice="Polly.Amy" language="en-GB">Hello World  </Say>
 </Response>
