@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Call Assistant Demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .box {
+            background: white;
+            padding: 1.5rem;
+            margin-top: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        a {
+            color: #0070f3;
+        }
+
+        code {
+            background: #eee;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+        }
+
+        input[type="tel"] {
+            padding: 0.5rem;
+            margin-right: 0.5rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 0.5rem 1rem;
+            background-color: #0070f3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>📞 AI Call Assistant — Demo</h1>
+
+    <p>This is a lightweight voicebot prototype built using Twilio. When you call or get called.</p>
+
+    <div class="box">
+        <h2>📲 Try the Demo</h2>
+        <p>You can trigger a call via the Twilio API or by calling the assigned number (trial accounts may require
+            verification).</p>
+        <p><strong>Call this number:</strong> <a href="tel:+15074811440">+1 (507) 481-1440</a></p>
+        </form>
+    </div>
+
+    <div class="box">
+        <h2>💵 Pricing Info</h2>
+        <p>Because this project uses a Twilio trial account, calls are limited (only to verified numbers, 10 mins max,
+            etc).</p>
+        <p>For actual pricing, it's best to check directly with Twilio: <a
+                href="https://www.twilio.com/en-us/voice/pricing/us" target="_blank">Twilio Voice Pricing</a></p>
+        <p>Or contact Twilio directly for custom plans, especially for businesses in Ireland or the EU.</p>
+    </div>
+
+    <div class="box">
+        <h2>🛠️ How It's Built</h2>
+        <ul>
+            <li>Hosted on GitHub Pages</li>
+            <li>Call flow written in <code>voice.xml</code> using TwiML (Twilio Markup Language)</li>
+            <li>Can be integrated into any Twilio app with a programmable voice call trigger</li>
+
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>👋 Want Customization?</h2>
+        <p>This is just a prototype. A real assistant could handle FAQ-style interactions, appointment booking, business
+            hours, and more. </p>
+    </div>
+</body>
+
+</html>
